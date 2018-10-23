@@ -188,6 +188,10 @@ COPY public.projects (id, title, description, max_grade) FROM stdin;
 1	Markov	Tweets generated from Markov chains	50
 2	Blockly	Programmatic Logic Puzzle Game	10
 5	Wits and Wagers	Bidding Game	150
+6	Dictionaries	we love dictionaries - so fun	80
+7	Flask	{fun,with,flask}	50
+8	Jinja	templatingwithJinja	65
+9	Debugging	no more bugs!	70
 \.
 
 
@@ -195,7 +199,7 @@ COPY public.projects (id, title, description, max_grade) FROM stdin;
 -- Name: projects_id_seq; Type: SEQUENCE SET; Schema: public; Owner: user
 --
 
-SELECT pg_catalog.setval('public.projects_id_seq', 5, true);
+SELECT pg_catalog.setval('public.projects_id_seq', 9, true);
 
 
 --
